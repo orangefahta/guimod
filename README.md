@@ -138,3 +138,4 @@ function pvpmap:give_kit_sword
 - Commands run **as the player** who clicks — make sure they have permission or use `function` from a datapack
 - Menus are saved as JSON files in `.minecraft/config/guimod/menus/` and can be edited manually
 - Color codes use `§` (section sign), e.g. `§aGreen`, `§cRed`, `§6Gold`
+- The mod supports English and Russian languages.
