@@ -5,7 +5,7 @@ A Fabric mod for Minecraft 1.21.4 that lets you create virtual chest menus trigg
 ---
 
 ## Requirements
-- Minecraft 1.21.4
+- Minecraft 1.21 - 1.21.8
 - Fabric Loader 0.16+
 - Fabric API
 
@@ -76,7 +76,7 @@ Example:
 ### `/guimod cfg <id> take-item <from> <to>`
 Marks a range of slots where players can actually take the item into their inventory instead of triggering a command.
 
-With `delete` word, you deleting slots
+With the `delete` keyword, you can remove slots.
 
 Example — allow taking items from slots 10 to 16:
 ```
@@ -139,3 +139,4 @@ function pvpmap:give_kit_sword
 - Menus are saved as JSON files in `.minecraft/config/guimod/menus/` and can be edited manually
 - Color codes use `§` (section sign), e.g. `§aGreen`, `§cRed`, `§6Gold`
 - The mod supports English and Russian languages.
+- Mod's versions is from 1.21 to 1.21.8.
