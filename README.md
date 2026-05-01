@@ -1,6 +1,6 @@
 # GuiMod — Virtual Chest GUI System
 
-A Fabric mod for Minecraft 1.21.4 that lets you create virtual chest menus triggered by items with custom NBT tags. No real chest block needed.
+A Fabric mod for Minecraft 1.21 - 1.21.8 that lets you create virtual chest menus triggered by items with custom NBT tags. No real chest block needed.
 
 ---
 
