@@ -76,11 +76,17 @@ Example:
 ### `/guimod cfg <id> take-item <from> <to>`
 Marks a range of slots where players can actually take the item into their inventory instead of triggering a command.
 
+With `delete` word, you deleting slots
+
 Example — allow taking items from slots 10 to 16:
 ```
 /guimod cfg my_shop take-item 10 16
 ```
-You can run this multiple times to add more ranges.
+Example — deleting taking items from slots 10 to 16:
+```
+/guimod cfg my_shop take-item 10 16 delete
+```
+You can run this multiple times.
 
 ### `/guimod cfg <id> list`
 Shows current config for a menu (type, slot count, take-slots).
