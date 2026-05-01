@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "guimod",
+  "version": "${version}",
+  "name": "GuiMod",
+  "description": "GUI in local world for any map! Questions? Discord: orangefahta | Telegram: @BePTIggO / @OrangeFaHTA. How to use and full code on github! https://github.com/orangefahta/guimod",
+  "authors": ["OrangeFaHTA"],
+  "icon": "assets/guimod/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.guimod.GuiMod"]
+  },
+  "mixins": ["guimod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.4"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "guimod.menu.already_exists": "§c[GuiMod] Меню '§f%s§c' уже существует! Используй /guimod edit.",
+  "guimod.menu.creating": "§a[GuiMod] Создаём меню '§f%s§a'. Расставь предметы и закрой.",
+  "guimod.menu.deleted": "§a[GuiMod] Меню '§f%s§a' удалено.",
+  "guimod.menu.not_found": "§c[GuiMod] Меню '§f%s§c' не найдено.",
+  "guimod.menu.not_found_plain": "§c[GuiMod] Меню не найдено: %s",
+  "guimod.menu.saved": "§a[GuiMod] Меню §f'%s' §aсохранено!",
+  "guimod.menu.list": "§6[GuiMod] Меню (%s): §f%s",
+  "guimod.cfg.invalid_type": "§c[GuiMod] Допустимые типы: chest, double, enderchest",
+  "guimod.cfg.type_set": "§a[GuiMod] Тип меню '§f%s§a' → §f%s",
+  "guimod.cfg.name_set": "§a[GuiMod] Название меню §f%s§a → §f%s",
+  "guimod.cfg.take_added": "§a[GuiMod] take-item слоты §f%s–%s §aдобавлены в '§f%s§a'",
+  "guimod.cfg.take_removed": "§a[GuiMod] take-item слоты §f%s–%s §aудалены из '§f%s§a'",
+  "guimod.cfg.take_invalid": "§c[GuiMod] Укажи числа: /guimod cfg <id> take-item <from> <to>",
+  "guimod.cfg.take_delete_invalid": "§c[GuiMod] Укажи числа: /guimod cfg <id> take-item <from> <to> delete",
+  "guimod.cfg.list": "§6[GuiMod] Конфиг '§f%s§6':\n§7Тип: §f%s\n§7Слотов: §f%s\n§7Предметов: §f%s\n§7Take-слоты: §f%s",
+  "guimod.chat.enter_command": "§eВведите команду для §f[%s]§e (без /).\n§7Для отмены: §fcfg menu:/!/: exit",
+  "guimod.chat.cancelled": "§7[GuiMod] Ввод команды отменён.",
+  "guimod.chat.command_saved": "§a[GuiMod] Команда для §f[%s]§a сохранена: §f%s"
+}

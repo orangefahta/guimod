@@ -1,0 +1,20 @@
+{
+  "guimod.menu.already_exists": "§c[GuiMod] Menu '§f%s§c' already exists! Use /guimod edit.",
+  "guimod.menu.creating": "§a[GuiMod] Creating menu '§f%s§a'. Place items and close.",
+  "guimod.menu.deleted": "§a[GuiMod] Menu '§f%s§a' deleted.",
+  "guimod.menu.not_found": "§c[GuiMod] Menu '§f%s§c' not found.",
+  "guimod.menu.not_found_plain": "§c[GuiMod] Menu not found: %s",
+  "guimod.menu.saved": "§a[GuiMod] Menu §f'%s' §asaved!",
+  "guimod.menu.list": "§6[GuiMod] Menus (%s): §f%s",
+  "guimod.cfg.invalid_type": "§c[GuiMod] Valid types: chest, double, enderchest",
+  "guimod.cfg.type_set": "§a[GuiMod] Menu type '§f%s§a' → §f%s",
+  "guimod.cfg.name_set": "§a[GuiMod] Menu name §f%s§a → §f%s",
+  "guimod.cfg.take_added": "§a[GuiMod] take-item slots §f%s–%s §aadded to '§f%s§a'",
+  "guimod.cfg.take_removed": "§a[GuiMod] take-item slots §f%s–%s §aremoved from '§f%s§a'",
+  "guimod.cfg.take_invalid": "§c[GuiMod] Please specify numbers: /guimod cfg <id> take-item <from> <to>",
+  "guimod.cfg.take_delete_invalid": "§c[GuiMod] Please specify numbers: /guimod cfg <id> take-item <from> <to> delete",
+  "guimod.cfg.list": "§6[GuiMod] Config '§f%s§6':\n§7Type: §f%s\n§7Slots: §f%s\n§7Items: §f%s\n§7Take-slots: §f%s",
+  "guimod.chat.enter_command": "§eEnter command for §f[%s]§e (without /).\n§7To cancel: §fcfg menu:/!/: exit",
+  "guimod.chat.cancelled": "§7[GuiMod] Command input cancelled.",
+  "guimod.chat.command_saved": "§a[GuiMod] Command for §f[%s]§a saved: §f%s"
+}
